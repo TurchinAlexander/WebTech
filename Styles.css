@@ -1,0 +1,149 @@
+.nav {
+  text-align: center;
+}
+
+.sections li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 13%;
+  font-size: 1.5em;
+}
+
+.empty {
+  width: 5%
+}
+
+.info {
+  width: 65%;
+}
+
+.descript {
+  margin-bottom: 2%;
+  border: 1px solid black;
+  border-radius: 2em;
+/*  float: left;
+  display: block;*/
+}
+
+.descript li {
+  text-align: left;
+  font-size: 1.1em;
+}
+
+p {
+  padding-left: 1em;
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.pic {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 2em;
+  padding: auto;
+
+  /*width: 60%;
+  height: 30%;*/
+}
+
+.blockpic {
+  border:  1px solid black;
+  border-radius: 2em;
+  margin-bottom: 2em;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.blockpic p {
+  text-align: center;
+}
+
+.posfixed {
+  position: fixed;
+}
+
+a {
+  color: black;
+}
+
+.sections a {
+  text-decoration: none;
+}
+
+td {
+  text-align: center;
+  #vertical-align: top;
+}
+
+.h1 {
+  border: 1px solid black;
+}
+
+a:hover {
+  color: #C0C0C0;
+}
+
+.photopic {
+  margin: 0;
+  margin-left: 10px;
+  float: left;
+}
+
+.bold {
+  color:red;
+  font-weight: bold;
+}
+
+/*Лаба 2*/
+.lab2 {
+  padding: 30px;
+  border-collapse: collapse;
+  border: 5px solid black;
+}
+
+.ex_border {
+  padding: 5px;
+  border-top: 4px solid green;
+  border-left: 4px solid darkblue;
+}
+
+.in_table{
+  width:100%;
+  border-collapse: collapse;
+  border: 3px solid brown;
+}
+
+.in_border{
+  padding: 5px;
+  border: 2px solid blue;
+}
+
+/* Лаба 3*/
+td.calendar{
+	border: 1px solid #cccccc;
+	background-color: whitesmoke;
+}
+table.month {
+	width: 390px;
+	height: 280px;
+	border: 1px solid #cccccc;
+	margin-top: 10px;
+	#display: inline;
+	#float:left;
+}
+
+td.calendar-today {
+	border: 3px solid #000000;
+}
+div.lab3 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+
