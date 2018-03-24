@@ -100,7 +100,7 @@
 			return $calendar;
 		}
 
-		include 'Array.php';
+		include 'Lab3-Array.php';
 		
 		// местоположение скрипта
 		$self = $_SERVER['PHP_SELF']; 
