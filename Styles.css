@@ -41,7 +41,7 @@ p {
   width: auto;
   max-width: 300px;
   max-height: 300px;
-  display: block;
+  display: inline-block;
   margin: auto;
   margin-top: 1em;
   border-radius: 2em;
@@ -133,8 +133,6 @@ table.month {
 	height: 280px;
 	border: 1px solid #cccccc;
 	margin-top: 10px;
-	#display: inline;
-	#float:left;
 }
 
 td.calendar-today {
